@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/screen12"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.chatbank.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/embed4"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/loginNumber"
+        android:layout_marginTop="80dp"
+        android:hint="Account number"
+        android:textColor="#050505"
+        android:background="@drawable/login_input"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/loginPin"
+        android:hint="cPin"
+        android:layout_marginTop="42dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/login_input"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:text="@string/login"
+        android:layout_marginTop="42dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/login_button"/>
+
+
+</LinearLayout>

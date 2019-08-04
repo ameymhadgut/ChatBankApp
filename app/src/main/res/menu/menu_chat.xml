@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.android.chatbank.ChatActivity">
+    <item
+        android:id="@+id/help_section"
+        android:orderInCategory="200"
+        android:title="@string/help"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="200"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_power_settings_new_white_24dp"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/action_settings"
+        app:showAsAction="always"/>
+
+
+</menu>
